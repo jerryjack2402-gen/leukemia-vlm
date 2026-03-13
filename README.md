@@ -10,6 +10,13 @@ A comprehensive Vision-Language Large Language Model (VLM-LLM) framework designe
 - **Web Interface**: Easy-to-use application (`app.py`) for uploading images and generating reports.
 - **Training Pipeline**: Complete training script (`train.py`) to fine-tune the model on custom datasets.
 
+## Dataset
+
+Due to the large size (10GB+), the dataset is hosted externally. You can download it from the following link:
+- **[Download Dataset Here](INSERT_CLOUD_LINK_HERE)**
+
+Place the downloaded `data_path` folder in the project root directory before running training or inference.
+
 ## Project Layout
 
 ```
