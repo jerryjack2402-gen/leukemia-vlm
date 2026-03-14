@@ -13,7 +13,12 @@ A comprehensive Vision-Language Large Language Model (VLM-LLM) framework designe
 ## Dataset
 
 Due to the large size (10GB+), the dataset is hosted externally. You can download it from the following link:
-- **[Download Dataset Here](INSERT_CLOUD_LINK_HERE)**
+- **[Download Dataset Here](https://drive.google.com/drive/folders/1_wPt38bPw4vh0gfDFuxpILlateERmxDA?usp=drive_link)**
+
+Alternatively, you can use the provided script to download the dataset:
+```bash
+python utils/download_data.py
+```
 
 Place the downloaded `data_path` folder in the project root directory before running training or inference.
 
