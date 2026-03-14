@@ -13,14 +13,16 @@ A comprehensive Vision-Language Large Language Model (VLM-LLM) framework designe
 ## Dataset
 
 Due to the large size (10GB+), the dataset is hosted externally. You can download it from the following link:
-- **[Download Dataset Here](https://drive.google.com/drive/folders/1_wPt38bPw4vh0gfDFuxpILlateERmxDA?usp=drive_link)**
+- **[Download Dataset Here](https://drive.google.com/drive/folders/1ccYfuqaTDzcZcWdLL_jBv7k0f2mWVFpB?usp=sharing)**
 
 Alternatively, you can use the provided script to download the dataset:
 ```bash
 python utils/download_data.py
 ```
 
-Place the downloaded `data_path` folder in the project root directory before running training or inference.
+Place the downloaded **[data_path](https://drive.google.com/drive/folders/1ccYfuqaTDzcZcWdLL_jBv7k0f2mWVFpB?usp=sharing)** folder (which contains the images) in the project root directory before running training or inference.
+> [!NOTE]
+> You cannot see the images directly on GitHub because the dataset is too large (10GB+). Use the Google Drive link above to browse the images online.
 
 ## Project Layout
 
@@ -44,7 +46,7 @@ leukemia_vlm/
 
 1. **Clone the repository** (or download the source):
    ```bash
-   git clone <your-github-repo-url>
+   git clone https://github.com/jerryjack2402-gen/leukemia-vlm.git
    cd leukemia_vlm
    ```
 
