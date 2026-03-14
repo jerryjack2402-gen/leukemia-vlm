@@ -11,6 +11,8 @@ def download_dataset():
     # and using --folder flag, but often users prefer downloading a zip.
     # If it's a folder, we can try 'gdown --folder'
     
+    # This is the central location where all dataset images will be stored.
+    # The training and inference scripts expect this folder to exist.
     output_dir = "data_path"
     os.makedirs(output_dir, exist_ok=True)
     
